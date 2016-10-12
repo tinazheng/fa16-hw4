@@ -1,0 +1,12 @@
+<% @todos.each do |todo|%>
+	<%= todo["task"] %>
+	<%= todo["created_at"] %>
+<% end %>
+
+<% @cats.each do |cat|%>
+	<%= cat["name"] %>
+<% end %>
+
+<% @users.each do |user|%>
+	<%= user["username"] %>
+<% end %>
